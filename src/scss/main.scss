@@ -7,7 +7,7 @@ section {
 
 .hero {
   // width: 100%;
-  background-image: url(/assets/bg_1.jpg.webp);
+  background-image: url(../../assets/bg_1.jpg.webp);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -276,7 +276,7 @@ nav {
 
 .about-img {
   width: 100%;
-  background-image: url(/assets/about.jpg.webp);
+  background-image: url(../../assets/about.jpg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +496,7 @@ nav {
 // Reviews Styling Section
 .reviews {
   background-image: linear-gradient(rgba($text-clr, 0.9), rgba($text-clr, 0.9)),
-    url(/assets/bg_3.jpg.webp);
+    url(../../assets/bg_3.jpg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -645,16 +645,16 @@ nav {
     }
 
     .staff1 {
-      background-image: url(/assets/staff-1.jpg.webp);
+      background-image: url(../../assets/staff-1.jpg.webp);
     }
     .staff2 {
-      background-image: url(/assets/staff-2.jpg.webp);
+      background-image: url(../../assets/staff-2.jpg.webp);
     }
     .staff3 {
-      background-image: url(/assets/staff-3.jpg.webp);
+      background-image: url(../../assets/staff-3.jpg.webp);
     }
     .staff4 {
-      background-image: url(/assets/staff-4.jpg.webp);
+      background-image: url(../../assets/staff-4.jpg.webp);
     }
 
     .socials {
@@ -814,16 +814,16 @@ nav {
     }
 
     .img1 {
-      background-image: url(/assets/gallery-1.jpg.webp);
+      background-image: url(../../assets/gallery-1.jpg.webp);
     }
     .img2 {
-      background-image: url(/assets/gallery-2.jpg.webp);
+      background-image: url(../../assets/gallery-2.jpg.webp);
     }
     .img3 {
-      background-image: url(/assets/gallery-3.jpg.webp);
+      background-image: url(../../assets/gallery-3.jpg.webp);
     }
     .img4 {
-      background-image: url(/assets/gallery-4.jpg.webp);
+      background-image: url(../../assets/gallery-4.jpg.webp);
     }
   }
 
@@ -909,7 +909,7 @@ nav {
 
   ul li {
     list-style-position: inside;
-    list-style-image: url(/assets/icons8-right-arrow-9.png);
+    list-style-image: url(../../assets/icons8-right-arrow-9.png);
     font-size: $fs-400;
     font-family: $ff-secondary;
     margin-block: 1.5em;
@@ -920,6 +920,13 @@ nav {
     background-color: $socials-hover;
     padding: 1.2em 5em;
     margin-bottom: 3em;
+  }
+
+}
+
+@media (max-width: 808px) {
+  .price-cards {
+    gap: 24px;
   }
 }
 
@@ -960,7 +967,7 @@ nav {
     width: 120%;
     height: 800px;
     opacity: 0.2;
-    background-image: url(/assets/bg_2.jpg.webp);
+    background-image: url(../../assets/bg_2.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1257,19 +1264,19 @@ nav {
     }
 
     .post1 {
-      background-image: url(/assets/image_1.jpg.webp);
+      background-image: url(../../assets/image_1.jpg.webp);
     }
 
     .post2 {
-      background-image: url(/assets/image_2.jpg.webp);
+      background-image: url(../../assets/image_2.jpg.webp);
     }
 
     .post3 {
-      background-image: url(/assets/image_3.jpg.webp);
+      background-image: url(../../assets/image_3.jpg.webp);
     }
 
     .post4 {
-      background-image: url(/assets/image_4.jpg.webp);
+      background-image: url(../../assets/image_4.jpg.webp);
     }
 
     .headings {
@@ -1381,7 +1388,7 @@ nav {
 // Footer Styling Section
 .footer {
   background-image: linear-gradient(rgba(#fff, 0.7), rgba(#fff, 0.7)),
-    url(/assets/bg_3.jpg.webp);
+    url(../../assets/bg_3.jpg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1470,7 +1477,7 @@ nav {
 
     ul li {
       list-style-position: inside;
-      list-style-image: url(/assets/icons8-right-arrow-9.png);
+      list-style-image: url(../../assets/icons8-right-arrow-9.png);
       font-size: $fs-400;
       font-family: $ff-secondary;
       padding-bottom: 1em;
@@ -1505,11 +1512,11 @@ nav {
     }
 
     .post1 {
-      background-image: url(/assets/image_1.jpg.webp);
+      background-image: url(../../assets/image_1.jpg.webp);
     }
 
     .post2 {
-      background-image: url(/assets/image_2.jpg.webp);
+      background-image: url(../../assets/image_2.jpg.webp);
     }
 
     .headings {

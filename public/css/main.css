@@ -90,7 +90,7 @@ section {
 }
 
 .hero {
-  background-image: url(/assets/bg_1.jpg.webp);
+  background-image: url(../../assets/bg_1.jpg.webp);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -302,7 +302,7 @@ nav .nav-logo p {
 
 .about-img {
   width: 100%;
-  background-image: url(/assets/about.jpg.webp);
+  background-image: url(../../assets/about.jpg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -454,7 +454,7 @@ nav .nav-logo p {
 }
 
 .reviews {
-  background-image: linear-gradient(rgba(234, 91, 58, 0.9), rgba(234, 91, 58, 0.9)), url(/assets/bg_3.jpg.webp);
+  background-image: linear-gradient(rgba(234, 91, 58, 0.9), rgba(234, 91, 58, 0.9)), url(../../assets/bg_3.jpg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -577,16 +577,16 @@ nav .nav-logo p {
   width: 100%;
 }
 .team .staff .staff1 {
-  background-image: url(/assets/staff-1.jpg.webp);
+  background-image: url(../../assets/staff-1.jpg.webp);
 }
 .team .staff .staff2 {
-  background-image: url(/assets/staff-2.jpg.webp);
+  background-image: url(../../assets/staff-2.jpg.webp);
 }
 .team .staff .staff3 {
-  background-image: url(/assets/staff-3.jpg.webp);
+  background-image: url(../../assets/staff-3.jpg.webp);
 }
 .team .staff .staff4 {
-  background-image: url(/assets/staff-4.jpg.webp);
+  background-image: url(../../assets/staff-4.jpg.webp);
 }
 .team .staff .socials {
   position: relative;
@@ -698,16 +698,16 @@ nav .nav-logo p {
   opacity: 1;
 }
 .gallery .spa-gallery .img1 {
-  background-image: url(/assets/gallery-1.jpg.webp);
+  background-image: url(../../assets/gallery-1.jpg.webp);
 }
 .gallery .spa-gallery .img2 {
-  background-image: url(/assets/gallery-2.jpg.webp);
+  background-image: url(../../assets/gallery-2.jpg.webp);
 }
 .gallery .spa-gallery .img3 {
-  background-image: url(/assets/gallery-3.jpg.webp);
+  background-image: url(../../assets/gallery-3.jpg.webp);
 }
 .gallery .spa-gallery .img4 {
-  background-image: url(/assets/gallery-4.jpg.webp);
+  background-image: url(../../assets/gallery-4.jpg.webp);
 }
 @media (max-width: 767px) {
   .gallery .spa-gallery {
@@ -779,7 +779,7 @@ nav .nav-logo p {
 }
 .price-cards ul li {
   list-style-position: inside;
-  list-style-image: url(/assets/icons8-right-arrow-9.png);
+  list-style-image: url(../../assets/icons8-right-arrow-9.png);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   margin-block: 1.5em;
@@ -791,6 +791,11 @@ nav .nav-logo p {
   margin-bottom: 3em;
 }
 
+@media (max-width: 808px) {
+  .price-cards {
+    gap: 24px;
+  }
+}
 .bookings {
   padding-right: 0;
   padding-bottom: 0;
@@ -823,7 +828,7 @@ nav .nav-logo p {
   width: 120%;
   height: 800px;
   opacity: 0.2;
-  background-image: url(/assets/bg_2.jpg.webp);
+  background-image: url(../../assets/bg_2.jpg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1063,16 +1068,16 @@ nav .nav-logo p {
   background-repeat: no-repeat;
 }
 .blog .blogposts .post1 {
-  background-image: url(/assets/image_1.jpg.webp);
+  background-image: url(../../assets/image_1.jpg.webp);
 }
 .blog .blogposts .post2 {
-  background-image: url(/assets/image_2.jpg.webp);
+  background-image: url(../../assets/image_2.jpg.webp);
 }
 .blog .blogposts .post3 {
-  background-image: url(/assets/image_3.jpg.webp);
+  background-image: url(../../assets/image_3.jpg.webp);
 }
 .blog .blogposts .post4 {
-  background-image: url(/assets/image_4.jpg.webp);
+  background-image: url(../../assets/image_4.jpg.webp);
 }
 .blog .blogposts .headings {
   font-size: 12px;
@@ -1163,7 +1168,7 @@ nav .nav-logo p {
 }
 
 .footer {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/assets/bg_3.jpg.webp);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../../assets/bg_3.jpg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1240,7 +1245,7 @@ nav .nav-logo p {
 }
 .footer .services ul li {
   list-style-position: inside;
-  list-style-image: url(/assets/icons8-right-arrow-9.png);
+  list-style-image: url(../../assets/icons8-right-arrow-9.png);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 1em;
@@ -1270,10 +1275,10 @@ nav .nav-logo p {
   background-repeat: no-repeat;
 }
 .footer .recents .post1 {
-  background-image: url(/assets/image_1.jpg.webp);
+  background-image: url(../../assets/image_1.jpg.webp);
 }
 .footer .recents .post2 {
-  background-image: url(/assets/image_2.jpg.webp);
+  background-image: url(../../assets/image_2.jpg.webp);
 }
 .footer .recents .headings {
   font-size: 12px;
